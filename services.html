@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title> My portfolio</title>
+ <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+        <!-------------header-------->
+        <header class="header">
+            <a href="#"><img src="./background.jpg" alt="background"><a>
+                <div class="navMenu" id="navMenu">
+                    <i class="bx bx-window-close" onclick="openMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        <i class="bx bx-window-close" onclick="openMenu()"></i>
+        </header>
+        <!-- sub-header session -->
+        <section class="sub-header" id="sub-header">
+            <h1><span>My</span> Services</h1>
+        </section>
+        
+        <!-- services session -->
+        <section class="services" id="services">
+    <div class="text-title">
+        <h2>What I <span>Do</span> services</h2>
+    </div>
+    <div class="services-content">
+        <div class="box">
+            <div class="icons">
+                <i class="bx bx-code"></i>
+            </div>
+            <h3>Design Development</h3>
+        <p>From sketches to final stitch, every design is a reflection of my eye for aesthetics and my love for clean, modern lines with unique twists.</p>
+            <a href="#" class="btn">Read More</a>      
+    </div>
+    <div class="box">
+            <div class="icons">
+                <i class="bx bx-code"></i>
+            </div>
+            <h3>Style Development</h3>
+        <p>I’m creating a stunning website or designing a custom outfit, my goal is the same: to make people feel seen, stylish, and empowered.</p>
+ <a href="#" class="btn">start a project from copy</a>
+    </div>
+    <div class="box">
+            <div class="icons">
+                <i class="bx bx-code"></i>
+            </div>
+            <h3> Packaging</h3>
+        <p>fashion is more than fabric; it’s a visual language, a way to express individuality, culture, and mood.</p>
+            <a href="#" class="btn">Start a project</a>
+            </div>
+        </div> 
+</section>
+
+<section class="others">
+    <div class="sub-text.title">
+        <h2><span>other</span> services</h2>
+    </div>
+    <div class="others-img">
+        <img src="./design.jpg" alt="">
+        <span class="circle-spin"></span>
+    </div>
+    <div class="others-text">
+        <h3><span>Design</span> Aesthetic</h3>
+        <p>every design is a reflection of my eye for aesthetics and my love for clean</p>
+        <a href="#" class="btn">Enroll Now</a>
+ </section>
+ <!------------footer---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Style with <i class='bx  bx-heart'  ></i> By Fatimah</p>
+    </div>
+    <div class="move-up">
+        <a href="#services"><i class='bx  bx-up.arrow.alt'></i> </a>
+    </div>
+</footer>
+
+<!-------35 for toggle menu------->
+<script>
+    varnavMenu = document.gettlementById("navMenu");
+
+    function openMenu() {
+        navMenu.style.right = "0";
+    }
+    function closeMenu() {
+        navMenu.style.right = "-200px";
+    }
+</script>
+    </body>
