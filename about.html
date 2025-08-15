@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
         <title> My portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-         <link rel="stylesheet"
+ <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
         <!-------------header-------->
         <header class="header">
-            <a href="#"><img src="./background.jpg" alt="background"><a>
+            <a href="#"><img src="./background.jpg" alt="background"></a>
                 <div class="navMenu" id="navMenu">
                     <i class="bx bx-window-close" onclick="openMenu()"></i>
                 <ul>
@@ -22,20 +22,18 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        <i class="bx bx-window-close" onclick="openMenu()"></i>
+     <i class='bx  bx-menu' onclick="openMenu()"></i>
         </header>
 <!----------sub-header session-------->
 <section class="sub-header" id="sub-header">
-    <div class="about"
+    <h1> About <span> Me</span></h1>
 </section>
 <!------------About Section------->
 <section class="about"id="about">
-    <h1>About <span>Me</span></h1>
     <div class="about-img">
         <img src="./Teemah.jpg" alt="">
     </div>
     <div class="about-text">
-        <h2>About <span>Me</span></h2>
         <h4><span> I'm a</span> Fashion Designer</h4>
         <p>I'm a creative spirit with a passion for design in all its forms.</p>
         <a href="#" class="btn">Let`s Talk</a>    
@@ -43,7 +41,7 @@
 </section>
 
 <section class="others" id="others">
-    <div class="sub-text.title">
+    <div class="sub-text-title">
         <h2>Why <span>Me?</span></h2>
     </div>
     <div class="others-img">
@@ -64,25 +62,26 @@
 
     </div>
 </section>
-<!------------footer---------->
+<!----------footer session---------->
 <footer class="footer">
     <div class="attribution">
-        <p>Style with <i class='bx  bx-heart'  ></i> By Fatimah</p>
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
     </div>
     <div class="move-up">
-        <a href="#about"><i class='bx  bx-up.arrow.alt'></i> </a>
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
     </div>
-</footer>
 
-<!-------35 for toggle menu------->
+<!-- JS for toggle menu -->
 <script>
-    varnavMenu = document.gettlementById("navMenu");
-
+    var NavMenu = document.getElementById("NavMenu");
+    
     function openMenu() {
-        navMenu.style.right = "0";
+        NavMenu.style.right = "0";
     }
+    
     function closeMenu() {
-        navMenu.style.right = "-200px";
+        NavMenu.style.right = "-200px";
     }
 </script>
-    </body>
+</body>
+</html>
