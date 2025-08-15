@@ -4,27 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
         <title> My portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-         <link rel="stylesheet"
+ <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     </head>
     <body>
         <!-------------header-------->
         <header class="header">
-            <a href="#"><img src="./background.jpg" alt="background"><a>
+            <a href="#"><img src="./background.jpg" alt="background"></a>
                 <div class="navMenu" id="navMenu">
                     <i class="bx bx-window-close" onclick="openMenu()"></i>
                 <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="about.html">About</a></li>
-     <li><a href="services.html">Services</a></li>
-     <li><a href="portfolio.html">Portfolio</a></li>
-     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
- <i class="bx bx-window-close" onclick="openMenu()"></i>
+     <i class='bx  bx-menu' onclick="openMenu()"></i>
         </header>
-
+  <!-- sub-header session --> 
+   <section class="sub-header" id="sub-header">
+     <h1>Contact<span> Me</span></h1>
+   </section>
+        
 <!-- contact -->
 <section class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2021357.1074998104!2d7.298630229934599!3d8.306465772173409!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b919f1f421a45%3A0xdd12405246f81e29!2sOnilekere%20St%2C%20Idi%20Mangoro%2C%20Ikeja%20101233%2C%20Lagos!5e0!3m2!1sen!2sng!4v1755256383416!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -56,3 +60,26 @@
         </form>
     </div>
 </section>
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+<!-- JS for toggle menu -->
+<script>
+    var NavMenu = document.getElementById("NavMenu");
+    
+    function openMenu() {
+        NavMenu.style.right = "0";
+    }
+    
+    function closeMenu() {
+        NavMenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
